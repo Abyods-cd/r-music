@@ -3,3 +3,4 @@ A React project focused on creating a seamless and interactive music experience 
 
 ## Development Log
 28/08/2024: Created project.
+
