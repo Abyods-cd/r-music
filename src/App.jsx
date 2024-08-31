@@ -1,19 +1,14 @@
-import PropTypes from 'prop-types'
 import React, { memo } from 'react'
-import { AppWrapper } from './App.js'
+import { AppWrapper } from './style.js'
+import Home from '@/views/home/index.jsx'
 
-const App = memo((props) => {
+const App = memo(() => {
   return (
     <AppWrapper>
-      <div className="flexbox">
-        <div className="lbox">1</div>
-        <div className="rbox">2</div>
-      </div>
-      R Music
+      <Home></Home>
     </AppWrapper>
   )
 })
 
-App.propTypes = {}
 
 export default App
